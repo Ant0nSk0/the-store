@@ -11,7 +11,7 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 """
 
 from pathlib import Path
-import os 
+import os
 import dj_database_url
 if os.path.isfile('env.py'):
     import env
@@ -31,7 +31,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['https://the-store-project.herokuapp.com/', 'localhost']
+ALLOWED_HOSTS = ['the-store-project.herokuapp.com/', 'localhost']
 
 
 # Application definition
